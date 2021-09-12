@@ -1,0 +1,6 @@
+.main_header {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}

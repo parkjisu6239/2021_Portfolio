@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Noto+Sans+KR&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Poppins', 'Noto Sans KR', sans-serif;
 }
 
 a {
@@ -13,4 +14,21 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+  font-weight: 600;
+}
+
+footer {
+  padding: 20px;
+  background-color: rgb(58, 58, 58);
+  color: white;
+}
+
+/* 구별을 위해 해놓은 것으로, 제거 필요! */
+main {
+  border: 1px solid black;
 }
