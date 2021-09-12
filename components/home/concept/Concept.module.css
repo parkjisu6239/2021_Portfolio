@@ -1,0 +1,9 @@
+.concept {
+    padding: 50px 100px;
+}
+
+.conceptList {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
