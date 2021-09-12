@@ -1,0 +1,4 @@
+.active {
+    color: rgb(84, 105, 190);
+    border-bottom: 0.5px solid rgb(84, 105, 190);
+}
