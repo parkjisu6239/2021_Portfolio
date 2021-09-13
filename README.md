@@ -22,7 +22,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Plus](#plus)
-- [Source & Referenced](#source & Referenced)
+- [Source & Referenced](#source--referenced)
 
 <br/>
 
@@ -64,9 +64,9 @@ $npm run dev
 
 ## Plus
 
-- [Step in progress](./readme_plus/Step in progress.md)
-- [Why use Next.js ?](./readme_plus/Why use Next.js.md)
-- [What i learned](./readme_plus/What i learned.md)
+- [Step in progress](./readme_plus/Step%20in%20progress.md)
+- [Why use Next.js ?](./readme_plus/Why%20use%20Next.js.md)
+- [What i learned](./readme_plus/What%20i%20learned.md)
 
 <br/>
 
