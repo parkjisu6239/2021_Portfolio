@@ -1,11 +1,25 @@
+import styles from './Portfolio.module.css'
+import PortfolioItem from './PortfolioItem'
+import Link from 'next/link'
+
 export default function Portfolio() {
+    const itemList = require('../../../public/data/topProject.json')
+
+    function renderPortfolio() {
+        return itemList.map( ele => {
+            return ( 
+                <PortfolioItem item={ele} key={ ele.title }/>
+            )
+        })
+    }
+
     return (
-        <article>
-            내 작업들이야, 더 많은 내용은 위에 메뉴에 있단다.
-            여기는 하이라이팅 이랄까 한 두세게만 보여줄게
-            작업 리스트
-            작업 아이템 3~4개
-            더보기(모든 작업 보기)
+        <article className={ styles.portfolio }>
+            <div className={ styles.header }>
+                <div className={ styles.title }>My Portfolio</div>
+                <div className={ styles.description }>My projects and works. Details can be found <span className={ styles.link }><Link href="/project">Here</Link></span>.</div>
+            </div>
+            <div className={ styles.portfolioList }>{ renderPortfolio() }</div>
         </article>
     )
 }

@@ -24,8 +24,8 @@ export default function Concept() {
             <div className={ styles.conceptList }>
                 { renderConcpet() }
             </div>
-            <div>
-                { selectedItem && selectedItem.description }
+            <div className={ styles.description }>
+                <div>{ selectedItem ? selectedItem.description : 'Click card!'}</div>
             </div>
         </article>
     )

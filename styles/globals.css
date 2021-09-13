@@ -28,13 +28,9 @@ footer {
   color: white;
 }
 
-/* 구별을 위해 해놓은 것으로, 제거 필요! */
 main {
-  border: 1px solid black;
-}
-
-/* 구별을 위해 해놓은 것으로, 제거 필요! */
-article {
-  height: 100vh;
-  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  padding: 5rem 10rem;
 }

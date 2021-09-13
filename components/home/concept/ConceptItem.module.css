@@ -10,16 +10,18 @@
     padding: 20px 50px;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 1px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    border: 5px solid #ffffff;
+    transition: all 0.2s ease;
 }
 
 .conceptitem:hover {
-    background-color: rgb(217, 243, 235);
-    box-shadow: rgb(152, 199, 185) 3px 3px 6px 0px inset, rgba(217, 243, 235, 0.5) -3px -3px 6px 1px inset;
+    transform: translate(0, -5%);
 }
 
 .title {
     font-weight: 700;
     font-size: 20px;
+    color: #603F8B;
 }
 
 .subtitle {
@@ -28,10 +30,9 @@
 }
 
 .image {
-    width: 70%;
+    width: 80%;
 }
 
 .active {
-    background-color: rgb(217, 243, 235);
-    box-shadow: rgb(152, 199, 185) 3px 3px 6px 0px inset, rgba(217, 243, 235, 0.5) -3px -3px 6px 1px inset;
+    border: 5px solid #c7b4df;
 }
