@@ -1,0 +1,42 @@
+.concept {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.conceptList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.title {
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.description {
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 1px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    background-color: #c7b4df;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 587px) {
+    .conceptList {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+
+@media (min-width: 588px) and (max-width: 1000px) {
+    .conceptList {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}

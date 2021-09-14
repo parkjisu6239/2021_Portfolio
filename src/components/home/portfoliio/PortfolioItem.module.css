@@ -1,0 +1,30 @@
+.portfolioItem:hover {
+    cursor: pointer;
+    transform: translate(0, -5%);
+    transition: all 0.3s ease;
+}
+
+.image {
+    padding: 50px;
+    background-color: #B6D0ED;
+    border-radius: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.title_en {
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(202, 202, 202);
+}
+
+.subtitle {
+    font-size: small;
+    color: rgb(122, 122, 122);
+}
