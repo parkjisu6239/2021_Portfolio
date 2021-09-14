@@ -43,7 +43,6 @@
 ## **Installation**
 
 - React 17.0.2
-- Next.js 11.1.2
 - react-dom 17.0.2
 
 <br/>
@@ -55,7 +54,8 @@
 Locally run
 
 ```bash
-$npm run dev
+$npm i
+$npm start
 ```
 
 <br/>
@@ -65,7 +65,6 @@ $npm run dev
 ## Plus
 
 - [Step in progress](./readme_plus/Step%20in%20progress.md)
-- [Why use Next.js ?](./readme_plus/Why%20use%20Next.js.md)
 - [What i learned](./readme_plus/What%20i%20learned.md)
 
 <br/>
@@ -77,12 +76,6 @@ $npm run dev
 ### YouTube
 
 - 코딩앙마, [Next js 강좌](https://www.youtube.com/playlist?list=PLZKTXPmaJk8Lx3TqPlcEAzTL8zcpBz7NP)
-
-
-
-### Docs
-
-- [Next.js](https://nextjs.org/)
 
 
 

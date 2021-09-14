@@ -28,3 +28,12 @@
 
 <br/>
 
+### 2021.09.14
+
+##### Done
+
+- [x] Next.js 제거
+- [x] React 로 구조 변경, react-router 추가
+- [x] 동적 이미지 url, className 일부 설정
+
+<br/>
