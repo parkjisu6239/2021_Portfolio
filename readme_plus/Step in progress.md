@@ -37,3 +37,17 @@
 - [x] 동적 이미지 url, className 일부 설정
 
 <br/>
+
+
+
+### 2021.09.15
+
+##### Done
+
+- [x] Styled-components 추가
+- [x] React의 default 이미지 경로는 root/public~ 이라는 것을 알게 됨
+  - 이미지 태그 `src` 지정할 때 그 다음 경로부터 쓰면 됨
+- [x] `classnames` uninstall
+- [x] portfolio article 부분 완료
+
+<br/>
