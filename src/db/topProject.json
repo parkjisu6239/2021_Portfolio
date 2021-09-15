@@ -2,44 +2,50 @@
     {
         "title": "나랑",
         "title_en": "Narang",
-        "subtitle": "온택트에 익숙해진 현대인을 위한 웹 화상 게임 서비스",
-        "image": "narang",
-        "url": "https://github.com/parkjisu6239/2021_Narang"
+        "subtitle": "온택트에 익숙해진 현대인을 위한 웹 화상 게임 서비스.",
+        "image": "portfolio/narang.png",
+        "url": "https://github.com/parkjisu6239/2021_Narang",
+        "backgroundColor": "#B6D0ED"
     },
     {
-        "title": "너랑",
-        "title_en": "Narang",
-        "subtitle": "온택트에 익숙해진 현대인을 위한 웹 화상 게임 서비스",
-        "image": "narang",
-        "url": "https://github.com/parkjisu6239/2021_Narang"
+        "title": "따가운 시선",
+        "title_en": "Eyes",
+        "subtitle": "Vanilla javaScript로 만든 interactive web.",
+        "image": "portfolio/eyes.gif",
+        "url": "https://github.com/parkjisu6239/2021_JS-CSS-practice/tree/master/MouseEffect/eyes",
+        "backgroundColor": "#eebb90"
     },
     {
-        "title": "노랑",
-        "title_en": "Narang",
-        "subtitle": "온택트에 익숙해진 현대인을 위한 웹 화상 게임 서비스",
-        "image": "narang",
-        "url": "https://github.com/parkjisu6239/2021_Narang"
+        "title": "DB 시각화, python",
+        "title_en": "Visualize the database using Python",
+        "subtitle": "Excel data를 parsing 하여 DB로 저장하고, 이를 시각화합니다.",
+        "image": "portfolio/jejugraph.png",
+        "url": "https://github.com/parkjisu6239/2019_Analysis-of-Jeju-Tourist",
+        "backgroundColor": "#CEAFD9"
     },
     {
-        "title": "니랑",
-        "title_en": "Narang",
-        "subtitle": "온택트에 익숙해진 현대인을 위한 웹 화상 게임 서비스",
-        "image": "narang",
-        "url": "https://github.com/parkjisu6239/2021_Narang"
+        "title": "신박",
+        "title_en": "Sinbak",
+        "subtitle": "TMDB API를 활용한 영화 정보 제공 및 추천 서비스.",
+        "image": "portfolio/sinbak.png",
+        "url": "https://github.com/parkjisu6239/2021_PJT_Sinbak-Movie",
+        "backgroundColor": "#7A7A7A"
     },
     {
-        "title": "네랑",
-        "title_en": "Narang",
-        "subtitle": "온택트에 익숙해진 현대인을 위한 웹 화상 게임 서비스",
-        "image": "narang",
-        "url": "https://github.com/parkjisu6239/2021_Narang"
+        "title": "끝말잇기",
+        "title_en": "End to end",
+        "subtitle": "국립국어원 API를 활용하여 AI와 끝말잇기 게임을 해보자!",
+        "image": "portfolio/endtoend.gif",
+        "url": "https://github.com/parkjisu6239/2021_ToyPjt_End-To-End",
+        "backgroundColor": "#F6F6F8"
     },
     {
-        "title": "내랑",
-        "title_en": "Narang",
-        "subtitle": "온택트에 익숙해진 현대인을 위한 웹 화상 게임 서비스",
-        "image": "narang",
-        "url": "https://github.com/parkjisu6239/2021_Narang"
+        "title": "자연어 처리 및 감정 분석",
+        "title_en": "Processing natural language and analyzing emotions.",
+        "subtitle": "자연어를 처리와 ML로 새로운 리뷰의 긍정/부정을 예측합니다. 또한, 긍정/부정 리뷰에 자주 등장하는 단어를 시각화합니다.",
+        "image": "portfolio/wordcloud.png",
+        "url": "https://github.com/parkjisu6239/2019_NIMS",
+        "backgroundColor": "#fffce6"
     }
     
 ]
