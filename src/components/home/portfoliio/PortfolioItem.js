@@ -1,28 +1,28 @@
-// import Image from 'next/image'
 import styles from './PortfolioItem.module.css'
-// import narang from '../../../public/image/portfolio/narang.png'
+import styled from "styled-components";
+
+const StyledImageContainer = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: ${props => props.backgroundColor};
+    border-radius: 10px;
+`;
 
 export default function PortfolioItem({ item }) {
-    // function renderImage(){
-    //     if (item.image === "narang") {
-    //         return <Image layout="intrinsic" src={ narang } alt="Picture of the author" />
-    //     } else if (item.image === 'Note') {
-    //         return <Image src={ Note } alt="Picture of the author" />
-    //     } else if (item.image === 'Commet') {
-    //         return <Image src={ Commet } alt="Picture of the author" />
-    //     } else if (item.image === 'Rocket') {
-    //         return <Image src={ Rocket } alt="Picture of the author" />
-    //     }
-    // }
-
     return (
         <section className={ styles.portfolioItem }>
-            {/* <div className={ styles.image }>{ renderImage() }</div> */}
-            <div className={ styles.header }>
-                <span className={ styles.title }>{ item.title }</span>
-                <span className={ styles.title_en }>{ item.title_en }</span>
+            <StyledImageContainer backgroundColor={item.backgroundColor}>
+                <img src={ `assets/${item.image}` }/>
+            </StyledImageContainer>
+            <div className={ styles.content }>
+                <div className={ styles.header }>
+                    <a className={ styles.title } href={ item.url }>{ item.title }</a>
+                    <span className={ styles.title_en }>{ item.title_en }</span>
+                </div>
+                <div className={ styles.subtitle }>{ item.subtitle }</div>
             </div>
-            <div className={ styles.subtitle }>{ item.subtitle }</div>
         </section>
     )
 }
