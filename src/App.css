@@ -31,6 +31,6 @@ footer {
 main {
   display: flex;
   flex-direction: column;
-  gap: 10rem;
-  padding: 5rem 10rem;
+  gap: 10vw;
+  padding: 10vh 10vw;
 }
