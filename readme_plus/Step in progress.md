@@ -51,3 +51,13 @@
 - [x] portfolio article 부분 완료
 
 <br/>
+
+
+### 2021.09.19
+
+##### Done
+
+- [x] specialize.json 추가
+- [x] homepage 각 section 배경색을 서로 다르게 지정 가능하게 article에 padding 지정
+
+<br/>
