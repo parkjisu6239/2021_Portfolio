@@ -61,3 +61,12 @@
 - [x] homepage 각 section 배경색을 서로 다르게 지정 가능하게 article에 padding 지정
 
 <br/>
+
+### 2021.09.22
+
+##### Done
+
+- [x] specialize 내용 추가
+- [x] icon 다운로드
+
+<br/>
