@@ -15,7 +15,7 @@ export default function Portfolio() {
 
     return (
         <article className={ styles.portfolio }>
-            <div className={ styles.header }>
+            <header className={ styles.header }>
                 <div className={ styles.title }>My Portfolio</div>
                 <div className={ styles.description }>
                     My projects and works. Details can be found 
@@ -23,7 +23,7 @@ export default function Portfolio() {
                         <Link to="/project"> Here</Link>
                     </span>.
                 </div>
-            </div>
+            </header>
             <div className={ styles.portfolioList }>{ renderPortfolio() }</div>
         </article>
     )
