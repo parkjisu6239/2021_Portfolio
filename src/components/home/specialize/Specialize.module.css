@@ -1,4 +1,50 @@
 .specialize {
-    background-color: rgb(80, 170, 206);
-    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background-color: rgb(201, 211, 244);
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 5vw;
+}
+
+.specializeList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+@media (max-width: 1000px) {
+    .content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 5vw;
+    }
+
+    .specializeList {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1200px) {
+    .specializeList {
+        grid-template-columns: 1fr 1fr;
+    }
 }

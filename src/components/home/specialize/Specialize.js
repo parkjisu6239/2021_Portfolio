@@ -1,11 +1,33 @@
+import { useState } from 'react';
 import styles from './Specialize.module.css'
+import SpecializeItem from './SpecializeItem'
+import SelectedItem from './SelectedItem'
 
 export default function Specialize() {
+    const itemList = require('../../../db/specialize.json')
+    const [ selectedItem, setSelectedItem ] = useState(itemList[0]);
+
+    function clickItem(item) {
+        setSelectedItem(item)
+    }
+
+    function renderSpecialize() {
+        return itemList.map( ele => {
+            return ( 
+                <SpecializeItem selectedItem={selectedItem} clickItem={clickItem} item={ele} key={ ele.title }/>
+            )
+        })
+    }
+
     return (
         <article className={styles.specialize}>
-            내 특장점이야, 차별점이야
-            차별점 리스트
-            차별점 아이템(싸피한거, 지라나 깃 많이 쓴거, 오픈소스 기여한거 등)
+            <div className={styles.header}>
+                <div className={styles.title}>Specializing In 🌟</div>
+            </div>
+            <section className={styles.content}>
+                <div className={styles.specializeList}>{renderSpecialize()}</div>
+                <SelectedItem item={selectedItem}/>
+            </section>
         </article>
     )
 }
