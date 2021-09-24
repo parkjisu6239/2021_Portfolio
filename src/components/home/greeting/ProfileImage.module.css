@@ -1,6 +1,6 @@
 .profileImage {
-    height: 400px;
-    width: 400px;
+    height: 100%;
+    width: auto;
 }
 
 @media (max-width: 750px) {
