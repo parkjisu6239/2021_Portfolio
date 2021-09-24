@@ -1,4 +1,5 @@
 import styles from './Hello.module.css'
+import { AiFillGithub, AiOutlineDownload } from 'react-icons/ai';
 
 export default function Hello() {
     return (
@@ -14,8 +15,8 @@ export default function Hello() {
                 <p>I am a developer who studies, grows steadily, and enjoys learning every day.</p>   
             </div>
             <div className={styles.btns}>
-                <button>DownLoad Resume</button>
-                <button>Go to GIt</button>
+                <button>Download Resume<AiOutlineDownload/></button>
+                <button>Go to GIt<AiFillGithub/></button>
             </div>
         </section>
     )
