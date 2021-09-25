@@ -45,6 +45,7 @@
 - React `17.0.2`
 - react-dom `17.0.2`
 - styled-components `5.3.1`
+- react-icons: `4.2.0`
 
 <br/>
 
