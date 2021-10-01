@@ -1,0 +1,15 @@
+blockquote {
+  border-left: 3px solid rgb(0, 0, 0);
+  padding-left: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+blockquote > p {
+  margin: 5px 0px;
+}
+
+pre {
+  background-color: #F7F6F3;
+  padding: 20px 10px;
+}

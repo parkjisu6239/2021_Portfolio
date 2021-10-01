@@ -1,32 +1,18 @@
+import { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
 
-const markdown = `
-# 제목
-
-## 부제목1
-
-이내용
-저내용
-
-\`\`\`
-  코드블럭
-\`\`\`
-
-
-## 부제목2
-
-*이탤릭*
-**굵게**
-
-- 리스트
-- 리리스트
-
-> 인용문
-
-`
-
 export default function MarkdownRenderer() {
-    return (
-        <ReactMarkdown>{markdown}</ReactMarkdown>
-    )
+  const file = require('./sample.md').default
+  const [ markdown, setMarkdown ] = useState('')
+
+  useEffect(() => {
+    fetch(file)
+    .then(response => response.text()).then((text) => {
+      setMarkdown(text)
+    })
+  })
+
+  return (
+    <ReactMarkdown children={markdown}></ReactMarkdown>
+  )
 }
