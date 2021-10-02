@@ -79,3 +79,13 @@
 - [x] image 추가 및 버튼 스타일링
 
 <br/>
+
+
+### 2021.10.01
+
+##### Done
+
+- [x] markdown file read and open
+- [x] markdown styling
+
+<br/>
