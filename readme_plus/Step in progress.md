@@ -80,6 +80,15 @@
 
 <br/>
 
+### 2021.10.01
+
+##### Done
+
+- [x] markdown file read and open
+- [x] markdown styling
+
+<br/>
+
 ### 2021.10.03
 
 ##### Done
@@ -88,4 +97,3 @@
 - [x] people say 초안 작성
 - [ ] people say 좌우 스크롤 및 버튼 이동(슬라이더, hooper 사용)
 
-<br/>
