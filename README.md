@@ -46,6 +46,9 @@
 - react-dom `17.0.2`
 - styled-components `5.3.1`
 - react-icons: `4.2.0`
+- [react-markdown](https://github.com/remarkjs/react-markdown) : `7.0.1`
+- [remark-gfm](https://github.com/remarkjs/remark-gfm) : `2.0.0`
+- [react-apexcharts](https://github.com/apexcharts/react-apexcharts) : 1.3.9
 
 <br/>
 
@@ -58,6 +61,12 @@ Locally run
 ```bash
 $npm i
 $npm start
+```
+
+Deploy
+
+```bash
+$npm run deploy
 ```
 
 <br/>
