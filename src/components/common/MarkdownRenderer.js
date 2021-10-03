@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
+import remarkGfm from 'remark-gfm'
+import './MarkdownRenderer.css'
 
 export default function MarkdownRenderer() {
   const file = require('./sample.md').default
@@ -13,6 +15,6 @@ export default function MarkdownRenderer() {
   })
 
   return (
-    <ReactMarkdown children={markdown}></ReactMarkdown>
+    <ReactMarkdown className="markdown" children={markdown} remarkPlugins={[remarkGfm]}></ReactMarkdown>
   )
 }
