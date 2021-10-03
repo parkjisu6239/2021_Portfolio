@@ -36,3 +36,17 @@ img {
 .active {
     border: 5px solid #c7b4df;
 }
+
+@media (max-width: 587px) {
+    .conceptitem {
+        padding: 20px;
+    }
+
+    .title {
+        font-size: 15px;
+    }
+
+    .subtitle {
+        display: none;
+    }
+}
