@@ -1,0 +1,14 @@
+{
+  "chart": {
+    "categories": ["React", "Vue", "back-end", "Design", "DevOps", "Github", "Algorithm"],
+    "data": [80, 90, 45, 75, 40, 75, 70]
+  },
+  "progress": {
+    "Python": 80,
+    "JavaScript": 80,
+    "CSS": 75,
+    "TypeScript": 50,
+    "Java": 50,
+    "R": 40
+  }
+}

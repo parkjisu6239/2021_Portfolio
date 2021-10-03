@@ -1,0 +1,72 @@
+blockquote {
+  border-left: 3px solid rgb(0, 0, 0);
+  padding-left: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+blockquote > p {
+  margin: 5px 0px;
+}
+
+pre {
+  background-color: #F7F6F3;
+  padding: 20px 10px;
+}
+
+.markdown a {
+  color: #0969DA;
+}
+
+.markdown a:hover {
+  text-decoration: underline;
+}
+
+.markdown :not(pre) code {
+  background-color: #EFF1F3;
+  border-radius: 5px;
+  padding: 5px;
+  color: #EB5757;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: left;
+  line-height: 1.5;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  margin: 20px 10px;
+}
+
+table tr {
+  border-bottom: 1px solid #ccc;
+}
+
+table tr:nth-child(even) {
+  background-color: rgb(245, 245, 245);
+}
+
+table th {
+  width: 150px;
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  border-right: 1px solid #ccc;
+  background-color: rgb(245, 245, 245);
+}
+
+table td {
+  width: 350px;
+  padding: 10px;
+  vertical-align: top;
+  border-right: 1px solid #ccc;
+}
+
+table .even {
+  background: #efefef;
+}
+
+.contains-task-list {
+  list-style: none;
+  padding-left: 0px;
+}

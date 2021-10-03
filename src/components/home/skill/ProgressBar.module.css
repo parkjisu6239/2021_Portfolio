@@ -1,0 +1,19 @@
+.progressContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.progressBackground {
+  width: 100%;
+  border-radius: 20px;
+  background-color: #E9ECEF;
+}
+
+.progressContainer span {
+  font-size: small;
+}
+
+.language {
+  width: 80px;
+}

@@ -80,7 +80,6 @@
 
 <br/>
 
-
 ### 2021.10.01
 
 ##### Done
@@ -89,3 +88,12 @@
 - [x] markdown styling
 
 <br/>
+
+### 2021.10.03
+
+##### Done
+
+- [x] chart library `apexcharts` 추가, [radar chart](https://apexcharts.com/react-chart-demos/radar-charts/radar-with-polygon-fill/) 이용
+- [x] people say 초안 작성
+- [ ] people say 좌우 스크롤 및 버튼 이동(슬라이더, hooper 사용)
+

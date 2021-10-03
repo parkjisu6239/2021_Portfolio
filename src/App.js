@@ -1,5 +1,4 @@
 import './App.css';
-import './markdown.css';
 import Top from './components/common/Top'
 import Footer from './components/common/Footer'
 import Home from './components/home/Home'

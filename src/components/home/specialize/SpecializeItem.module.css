@@ -22,10 +22,6 @@
     font-weight: 700;
 }
 
-.subtitle {
-    font-size: x-small;
-}
-
 .active {
     border: 5px solid #b4bcdf;
 }
@@ -33,4 +29,11 @@
 .image {
     height: 5vw;
     width: auto;
+}
+
+@media (max-width: 730px) {
+    .specializeItem {
+        flex-direction: row;
+        padding: 10px;
+    }
 }

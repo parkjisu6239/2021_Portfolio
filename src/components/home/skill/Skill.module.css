@@ -1,0 +1,25 @@
+.skill {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.skillContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10vw;
+}
+
+.title {
+  text-align: center;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+@media (max-width: 1000px) {
+  .skill {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+}
