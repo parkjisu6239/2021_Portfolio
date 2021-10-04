@@ -21,7 +21,6 @@ const StyledPeopleSayItem = styled.div`
   gap: 10px;
   padding: 20px;
   border-radius: 5px;
-  width: 460px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 20px;
 `;
 

@@ -1,0 +1,21 @@
+.peopleSayList {
+  overflow-x: auto;
+}
+
+.peopleSayList::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.peopleSayList::-webkit-scrollbar-thumb {
+  background-color: #B0B0B0;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: 2px solid transparent;
+}
+
+.peopleSayList::-webkit-scrollbar-track {
+  background-color: #E0E0E0;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 3px white;
+}
