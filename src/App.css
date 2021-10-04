@@ -16,12 +16,6 @@ a {
   box-sizing: border-box;
 }
 
-nav {
-  display: flex;
-  align-items: center;
-  gap: 25px;
-}
-
 footer {
   padding: 20px;
   background-color: rgb(58, 58, 58);
@@ -34,5 +28,5 @@ main {
 }
 
 main > article {
-  padding: 10vh 10vw;
+  padding: 5vh 10vw;
 }

@@ -97,3 +97,16 @@
 - [x] people say 초안 작성
 - [ ] people say 좌우 스크롤 및 버튼 이동(슬라이더, hooper 사용)
 
+<br/>
+
+### 2021.10.04
+
+![preview211004](Step in progress.assets/preview211004.gif)
+
+##### Done
+
+- [x] navbar 반응형 디자인 적용, 작아질 경우 햄버거버튼
+- [x] people say 슬라이더 적용 대신, 스크롤바 커스텀으로 사용
+  - [ ] 추후에 좋은 라이브러리가 있으면 적용하기로!
+- [x] homepage css, content 내용 초안 완성
+

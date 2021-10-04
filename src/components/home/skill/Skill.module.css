@@ -18,8 +18,13 @@
 
 @media (max-width: 1000px) {
   .skill {
+    gap: 0px;
+  }
+
+  .skillContainer {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 0px;
   }
 }
