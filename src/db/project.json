@@ -7,11 +7,11 @@
     "tag": ["web", "vue", "java spring", "webrtc", "websocket"]
   },
   {
-    "title": "나랑",
-    "eng_title": "narang",
-    "description": "나랑은 이런것이다",
+    "title": "ONE-vscode",
+    "eng_title": "onevscode",
+    "description": "삼성 오픈소스 프로젝트",
     "image": "1.png",
-    "tag": ["web", "vue", "java spring", "webrtc", "websocket"]
+    "tag": ["vscode", "samsung", "opensource"]
   },
   {
     "title": "나랑",
