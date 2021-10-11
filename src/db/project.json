@@ -14,11 +14,11 @@
     "tag": ["vscode", "samsung", "opensource"]
   },
   {
-    "title": "나랑",
-    "eng_title": "narang",
-    "description": "나랑은 이런것이다",
+    "title": "신박",
+    "eng_title": "sinbak",
+    "description": "영화 커뮤니티 사이트",
     "image": "1.png",
-    "tag": ["web", "vue", "java spring", "webrtc", "websocket"]
+    "tag": ["web", "vue", "django"]
   },
   {
     "title": "나랑",
