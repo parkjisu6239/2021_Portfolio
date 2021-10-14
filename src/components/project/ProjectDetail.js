@@ -6,12 +6,13 @@ import ProjectItem from "./ProjectItem"
 export default function ProjectDetail() {
     const id = useParams().id
     const project = require('../../db/project.json')[id]
+    const md = require(`../../../public/assets/project/${project.eng_title}/readme.md`).default
 
     return (
         <StyledProjectDetail>
             { id }번 프로젝트 디테일, {project.title} / {project.eng_title}
             {project.tag}
-            <MarkdownRenderer/>
+            <MarkdownRenderer md={md}/>
         </StyledProjectDetail>
     )
 }
