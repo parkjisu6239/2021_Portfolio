@@ -3,12 +3,11 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from 'remark-gfm'
 import './MarkdownRenderer.css'
 
-export default function MarkdownRenderer() {
-  const file = require('./sample.md').default
+export default function MarkdownRenderer({md}) {
   const [ markdown, setMarkdown ] = useState('')
 
   useEffect(() => {
-    fetch(file)
+    fetch(md)
     .then(response => response.text()).then((text) => {
       setMarkdown(text)
     })
