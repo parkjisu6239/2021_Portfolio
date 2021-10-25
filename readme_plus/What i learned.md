@@ -44,6 +44,17 @@ className={classNames({[styles.conceptitem]: true, [styles.active]: selectedItem
 
 # React & Library
 
+### ✅ project start
+
+프로젝트 시작하기
+
+```bash
+npm creat-react-app <app name>
+```
+
+
+
+
 ### ✅ import local image(resource)
 
 ```react
